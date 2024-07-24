@@ -1,0 +1,5 @@
+(executable
+ (public_name opaste)
+ (name main)
+ (libraries opaste dream)
+ (preprocess (pps lwt_ppx)))
